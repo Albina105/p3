@@ -37,7 +37,7 @@
       margin-top: 80px;
       
       .clients {
-        width: 350px;
+        width: 400px;
         min-height: 400px;
         background: #F8F8F8;
         padding: 30px;
@@ -70,25 +70,30 @@
         }
         
         .opis {
+          position: relative;
+          
           .stars {
             color: #FFA500;
             font-size: 18px;
             margin: 10px 0;
-            position: relative;
-            
           }
           
           .quote {
-            font-size: 60px;
-            color: orange;
-            position: absolute;
-            text-align: right;
+            font-size: 28px;
+            color: #FFA500;
+            display: inline;
+            line-height: 1;
+            margin-right: 4px;
+            font-weight: bold;
           }
           
           .quote-end {
-            font-size: 60px;
-            color: orange;
-            text-align: right;
+            font-size: 28px;
+            color: #FFA500;
+            display: inline;
+            line-height: 1;
+            margin-left: 5px;
+            font-weight: bold;
           }
           
           p {
@@ -96,6 +101,7 @@
             line-height: 24px;
             color: #555C68;
             text-align: center;
+            display: inline;
           }
         }
       }
