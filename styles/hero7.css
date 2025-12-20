@@ -58,6 +58,7 @@
         fill: black;
         --ionicon-stroke-width: 64px;
       }
+      
     }
 
     .nic {
@@ -148,3 +149,5 @@
     }
   }
 }
+
+
